@@ -1,0 +1,30 @@
+import turtle #imports the turtle library
+
+turtle.shape("turtle") #makes turtle look like turtle
+
+print(turtle.position())
+
+turtle.forward(150)#turtle moves forward a specific amount of units
+turtle.right(90) #turns turtle in a direction
+turtle.forward(150)
+turtle.right(90)
+turtle.forward(150)
+turtle.right(90)
+turtle.forward(150) #finishes a box like position
+
+#we pick up the turtle so that it doesn't draw lines
+
+turtle.up() #now turtle won't draw
+turtle.forward(150)
+
+turtle.down() #now turtle will put down a drawing line
+
+turtle.setheading(0) #face east
+
+turtle.forward(75)
+turtle.left(90)
+turtle.forward(75)
+turtle.left(90)
+turtle.forward(75)
+turtle.left(90)
+turtle.forward(75)
