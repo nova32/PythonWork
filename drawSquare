@@ -1,0 +1,13 @@
+import turtle #imports the turtle library
+
+turtle.shape("turtle") #makes turtle look like turtle
+
+print(turtle.position())
+
+turtle.forward(150)#turtle moves forward a specific amount of units
+turtle.right(90) #turns turtle in a direction
+turtle.forward(150)
+turtle.right(90)
+turtle.forward(150)
+turtle.right(90)
+turtle.forward(150) #finishes a box like position
